@@ -4481,7 +4481,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 11
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4506,7 +4506,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2, y: -0.10000038, z: -9.9955}
+  m_LocalPosition: {x: -4.2, y: -4.5, z: -9.9955}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7632,7 +7632,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1858643907
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7898425298265135411, guid: d15ac578d18d9374faa8c28b38ec0898, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9361,7 +9361,7 @@ GameObject:
   - component: {fileID: 1227750710}
   m_Layer: 3
   m_Name: CinemachineCamera
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9381,21 +9381,21 @@ MonoBehaviour:
   CameraDistance: 10
   DeadZoneDepth: 0
   Composition:
-    ScreenPosition: {x: 0, y: 0.2}
+    ScreenPosition: {x: 0, y: 0}
     DeadZone:
       Enabled: 0
       Size: {x: 0.2, y: 0.2}
     HardLimits:
       Enabled: 0
-      Size: {x: 2, y: 0.8}
+      Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
   Damping: {x: 0, y: 0, z: 0}
   Lookahead:
     Enabled: 0
-    Time: 0.3
-    Smoothing: 10
+    Time: 0
+    Smoothing: 0
     IgnoreY: 0
 --- !u!114 &1227750711
 MonoBehaviour:
@@ -9422,7 +9422,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 40
-    OrthographicSize: 11
+    OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -9449,7 +9449,7 @@ Transform:
   m_GameObject: {fileID: 1227750709}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.2, y: -0.10000038, z: -9.9955}
+  m_LocalPosition: {x: -4.2, y: -4.5, z: -9.9955}
   m_LocalScale: {x: 11.791276, y: 1.2204713, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10726,7 +10726,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1858643907
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7898425298265135411, guid: d15ac578d18d9374faa8c28b38ec0898, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15993,7 +15993,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1540864951
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -572462336, guid: 6731e75e948998a479de367fc6d22ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
