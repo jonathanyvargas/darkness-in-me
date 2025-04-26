@@ -10,7 +10,7 @@ public class Enemey_EarAnimationTriggers : MonoBehaviour
         enemy.AnimationFinishTrigger();
     }
 
-    private void AttrackTrigger()
+    private void AttackTrigger()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(enemy.attackCheck.position, enemy.attackCheckRadius);
         foreach (var hit in colliders)
@@ -19,6 +19,7 @@ public class Enemey_EarAnimationTriggers : MonoBehaviour
             {
                 PlayerStats target = hit.GetComponent<PlayerStats>();
                 enemy.stats.DoDamage(target);
+                enemy.DoKnockback(hit.GetComponent<Player>(), enemy.stats.knockbackSpeedX.GetValue(), enemy.stats.knockbackSpeedY.GetValue());
                 //hit.GetComponent<Player>().Damage();
                 //hit.GetComponent<CharacterStats>().TakeDamage(enemy.stats.damage.GetValue());
             }

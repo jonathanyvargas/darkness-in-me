@@ -7,6 +7,8 @@ public class CharacterStats : MonoBehaviour
 
     public Stats damage;
     public Stats maxHealth;
+    public Stats knockbackSpeedX;
+    public Stats knockbackSpeedY;
 
     [SerializeField] private int currentHealth;
 

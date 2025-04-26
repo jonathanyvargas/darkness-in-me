@@ -49,4 +49,22 @@ public class Enemy : Entity
 
     }
 
+        /// <summary>
+    /// DoKnockback pushes the target in the direction the attacking entity is facing
+    /// </summary>
+    /// <param name="targetrb">The target taking knocback</param>
+    /// <param name="knockbackSpeed">How far the target will be knocked back</param>
+    public void DoKnockback(Player targetEntity, float knockbackSpeedX, float knockbackSpeedY) {
+        targetEntity.TakeKnockback(knockbackSpeedX * facingDir, knockbackSpeedY);
+    }
+
+    /// <summary>
+    /// TakeKnockback causes the entity to be pushed into a specified direction
+    /// </summary>
+    /// <param name="knockbackSpeed"></param>
+    public void TakeKnockback(float knockbackSpeedX, float knockbackSpeedY) {
+        rb.linearVelocity = new Vector2(knockbackSpeedX, knockbackSpeedY);
+        //rb.AddForce(new Vector2(knockbackSpeedX, knockbackSpeedY), ForceMode2D.Impulse);
+    }
+
 }

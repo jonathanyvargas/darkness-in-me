@@ -1,3 +1,4 @@
+using UnityEditor.Callbacks;
 using UnityEngine;
 
 public class Entity : MonoBehaviour
@@ -50,7 +51,6 @@ public class Entity : MonoBehaviour
         fx.StartCoroutine("FlashFX");
         Debug.Log(gameObject.name + " was damaged!");
     }
-
 
     #region Collision
     public virtual bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);

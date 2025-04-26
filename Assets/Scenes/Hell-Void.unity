@@ -1459,6 +1459,10 @@ MonoBehaviour:
     baseValue: 100
   maxHealth:
     baseValue: 20
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &146509286
 MonoBehaviour:
@@ -2232,6 +2236,10 @@ MonoBehaviour:
     baseValue: 100
   maxHealth:
     baseValue: 20
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &217009309
 MonoBehaviour:
@@ -5369,6 +5377,10 @@ MonoBehaviour:
     baseValue: 50
   maxHealth:
     baseValue: 70
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!70 &620651795
 CapsuleCollider2D:
@@ -5715,6 +5727,10 @@ MonoBehaviour:
     baseValue: 100
   maxHealth:
     baseValue: 20
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &711273132
 MonoBehaviour:
@@ -6613,6 +6629,10 @@ MonoBehaviour:
     baseValue: 50
   maxHealth:
     baseValue: 70
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &810842235
 MonoBehaviour:
@@ -7719,7 +7739,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1858643907
-  m_SortingLayer: 0
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7898425298265135411, guid: d15ac578d18d9374faa8c28b38ec0898, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8500,6 +8520,10 @@ MonoBehaviour:
     baseValue: 50
   maxHealth:
     baseValue: 70
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &1034725850
 MonoBehaviour:
@@ -9062,6 +9086,10 @@ MonoBehaviour:
     baseValue: 100
   maxHealth:
     baseValue: 100
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &1061564319
 MonoBehaviour:
@@ -9728,6 +9756,10 @@ MonoBehaviour:
     baseValue: 50
   maxHealth:
     baseValue: 70
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &1272370928
 MonoBehaviour:
@@ -9891,9 +9923,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    baseValue: 50
+    baseValue: 1
   maxHealth:
     baseValue: 70
+  knockbackSpeedX:
+    baseValue: 10
+  knockbackSpeedY:
+    baseValue: 5
   currentHealth: 0
 --- !u!114 &1275409841
 MonoBehaviour:
@@ -10813,7 +10849,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1858643907
-  m_SortingLayer: 0
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7898425298265135411, guid: d15ac578d18d9374faa8c28b38ec0898, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11269,7 +11305,11 @@ MonoBehaviour:
   damage:
     baseValue: 10
   maxHealth:
-    baseValue: 1
+    baseValue: 3
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!1 &1468395500
 GameObject:
@@ -11988,6 +12028,10 @@ MonoBehaviour:
     baseValue: 100
   maxHealth:
     baseValue: 20
+  knockbackSpeedX:
+    baseValue: 0
+  knockbackSpeedY:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &1601235005
 MonoBehaviour:
@@ -16167,7 +16211,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1540864951
-  m_SortingLayer: 0
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -572462336, guid: 6731e75e948998a479de367fc6d22ac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

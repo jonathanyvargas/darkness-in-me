@@ -24,9 +24,12 @@ public class PlayerAirState : PlayerState
         if (Input.GetKeyDown(KeyCode.Mouse0))
             stateMachine.ChangeState(player.attackJumpState);
 
-        if (player.IsGroundDetected())
+        if (player.IsGroundDetected()) {
+            Debug.Log("back to idle");
             stateMachine.ChangeState(player.idleState);
+        }
 
-        player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocity.y);
+        if(xInput != 0)
+            player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocity.y);
     }
 }
