@@ -9927,7 +9927,7 @@ MonoBehaviour:
   maxHealth:
     baseValue: 70
   knockbackSpeedX:
-    baseValue: 10
+    baseValue: 20
   knockbackSpeedY:
     baseValue: 5
   currentHealth: 0

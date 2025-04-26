@@ -100,8 +100,9 @@ public class Player : Entity
     /// </summary>
     /// <param name="knockbackSpeed"></param>
     public void TakeKnockback(float knockbackSpeedX, float knockbackSpeedY) {
+        airState.ActivateKnockback();
         rb.linearVelocity = new Vector2(knockbackSpeedX, knockbackSpeedY);
-        stateMachine.ChangeState(airState);
+
         //rb.AddForce(new Vector2(knockbackSpeedX, knockbackSpeedY), ForceMode2D.Impulse);
     }
 
