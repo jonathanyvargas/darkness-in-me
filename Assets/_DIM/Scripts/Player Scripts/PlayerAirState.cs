@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerAirState : PlayerState
 {
     private float knockbackTimer;
-    private float knockbackDuration = 0.2f;
+    private float knockbackDuration = 0.3f;
     private bool isKnockbackActive = false;
     public PlayerAirState(Player _player, PlayerStateMachine _stateMachine, string _animBooName) : base(_player, _stateMachine, _animBooName)
     {

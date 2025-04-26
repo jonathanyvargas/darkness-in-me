@@ -63,8 +63,8 @@ public class Enemy : Entity
     /// </summary>
     /// <param name="knockbackSpeed"></param>
     public void TakeKnockback(float knockbackSpeedX, float knockbackSpeedY) {
-        rb.linearVelocity = new Vector2(knockbackSpeedX, knockbackSpeedY);
-        //rb.AddForce(new Vector2(knockbackSpeedX, knockbackSpeedY), ForceMode2D.Impulse);
+        //rb.linearVelocity = new Vector2(knockbackSpeedX, knockbackSpeedY);
+        rb.AddForce(new Vector2(knockbackSpeedX, knockbackSpeedY), ForceMode2D.Impulse);
     }
 
 }
