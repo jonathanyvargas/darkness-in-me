@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "darkness-in-me.sln"
+    "dotnet.defaultSolution": "Darkness in Me.sln"
 }
