@@ -14,6 +14,8 @@ public class Player : Entity
     public float dashDuration;
     public float dashDir {  get; private set; }
 
+    [Header("UI")]
+    [SerializeField] private UIManager UIManager;
 
     public PlayerStateMachine stateMachine {  get; private set; }
     public PlayerIdleState idleState { get; private set; }
@@ -57,6 +59,7 @@ public class Player : Entity
         stateMachine.currentState.Update();
 
         CheckForDashInput();
+        CheckForEscape();
     }
 
     public void AnimationTrigger() => stateMachine.currentState.AnimationFinishTrigger();
@@ -77,6 +80,17 @@ public class Player : Entity
             }
 
             stateMachine.ChangeState(dashState);
+        }
+    }
+
+    private void CheckForEscape() {
+        if(Input.GetKeyDown(KeyCode.Escape)) {
+            if(!UIManager.isPauseScreenActive()) {
+                UIManager.Pause();
+            }
+            else{
+                UIManager.Resume();
+            }
         }
     }
 
