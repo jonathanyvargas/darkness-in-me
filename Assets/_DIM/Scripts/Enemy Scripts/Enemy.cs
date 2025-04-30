@@ -49,22 +49,35 @@ public class Enemy : Entity
 
     }
 
-        /// <summary>
-    /// DoKnockback pushes the target in the direction the attacking entity is facing
-    /// </summary>
-    /// <param name="targetrb">The target taking knocback</param>
-    /// <param name="knockbackSpeed">How far the target will be knocked back</param>
-    public void DoKnockback(Player targetEntity, float knockbackSpeedX, float knockbackSpeedY) {
-        targetEntity.TakeKnockback(knockbackSpeedX * facingDir, knockbackSpeedY);
-    }
-
     /// <summary>
     /// TakeKnockback causes the entity to be pushed into a specified direction
     /// </summary>
     /// <param name="knockbackSpeed"></param>
-    public void TakeKnockback(float knockbackSpeedX, float knockbackSpeedY) {
+    public override void TakeKnockback(float knockbackSpeedX, float knockbackSpeedY) {
         //rb.linearVelocity = new Vector2(knockbackSpeedX, knockbackSpeedY);
-        rb.AddForce(new Vector2(knockbackSpeedX, knockbackSpeedY), ForceMode2D.Impulse);
-    }
+        ActivateKnockback();
+        base.TakeKnockback(knockbackSpeedX, knockbackSpeedY);
+    } 
 
+    /// <summary>
+    /// When the player touches the enemy, they will be knocked back and take damage
+    /// </summary>
+    /// <param name="other">the other 2D body that touches the enemey</param>
+    /* private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerStats>().TakeDamage(1);
+            other.GetComponent<Player>().TakeKnockback(10, 10);
+        } 
+    } */
+
+    private void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.collider.CompareTag("Player"))
+    {
+        collision.collider.GetComponent<PlayerStats>().TakeDamage(1);
+        collision.collider.GetComponent<Player>().TakeKnockback(5 * facingDir, 5);
+    }
+}
 }

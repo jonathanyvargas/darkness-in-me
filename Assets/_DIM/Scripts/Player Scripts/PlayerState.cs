@@ -18,6 +18,9 @@ public class PlayerState
     protected float stateTimer;
 
     protected bool triggerCalled;
+/*     protected float knockbackTimer;
+    protected float knockbackDuration = 0.3f;
+    protected bool isKnockbackActive = false; */
 
     public PlayerState(Player _player, PlayerStateMachine _stateMachine, string _animBooName)
     {

@@ -52,7 +52,15 @@ public class EarBattleState : EnemyState
             moveDir = -1;
         }
 
-        enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.linearVelocity.y); 
+        if (enemy.isKnockbackActive)
+        {
+            enemy.knockbackTimer -= Time.deltaTime;
+            if (enemy.knockbackTimer <= 0)
+                enemy.isKnockbackActive = false;
+        }
+        else {
+            enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.linearVelocity.y); 
+        }
     }
 
     public override void Exit()

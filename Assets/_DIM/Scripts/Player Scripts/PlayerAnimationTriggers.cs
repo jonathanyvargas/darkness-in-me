@@ -19,6 +19,7 @@ public class PlayerAnimationTriggers : MonoBehaviour
             {
                 EnemyStats _target = hit.GetComponent<EnemyStats>();
                 player.stats.DoDamage(_target);
+                player.DoKnockback(hit.GetComponent<Entity>(), player.stats.knockbackSpeedX.GetValue(), player.stats.knockbackSpeedY.GetValue());
                 //hit.GetComponent<Enemy>().Damage();
                 //hit.GetComponent<CharacterStats>().TakeDamage(player.stats.damage.GetValue());
             }

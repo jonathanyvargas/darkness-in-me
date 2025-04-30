@@ -18,7 +18,7 @@ public class Enemy_EyeballAnimationTriggers : MonoBehaviour
             {
                 PlayerStats target = hit.GetComponent<PlayerStats>();
                 enemy.stats.DoDamage(target);
-                enemy.DoKnockback(hit.GetComponent<Player>(), enemy.stats.knockbackSpeedX.GetValue(), enemy.stats.knockbackSpeedY.GetValue());
+                enemy.DoKnockback(hit.GetComponent<Entity>(), enemy.stats.knockbackSpeedX.GetValue(), enemy.stats.knockbackSpeedY.GetValue());
                 //hit.GetComponent<Player>().Damage();
                 //hit.GetComponent<CharacterStats>().TakeDamage(enemy.stats.damage.GetValue());
             }

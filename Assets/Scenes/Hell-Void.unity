@@ -1456,12 +1456,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    baseValue: 100
+    baseValue: 1
   maxHealth:
     baseValue: 20
   knockbackSpeedX:
-    baseValue: 0
+    baseValue: 10
   knockbackSpeedY:
+    baseValue: 5
+  knockbackResistPercent:
     baseValue: 0
   currentHealth: 0
 --- !u!114 &146509286
@@ -1485,6 +1487,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -2240,6 +2245,8 @@ MonoBehaviour:
     baseValue: 0
   knockbackSpeedY:
     baseValue: 0
+  knockbackResistPercent:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &217009309
 MonoBehaviour:
@@ -2262,6 +2269,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -5337,6 +5347,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -5380,6 +5393,8 @@ MonoBehaviour:
   knockbackSpeedX:
     baseValue: 0
   knockbackSpeedY:
+    baseValue: 0
+  knockbackResistPercent:
     baseValue: 0
   currentHealth: 0
 --- !u!70 &620651795
@@ -5731,6 +5746,8 @@ MonoBehaviour:
     baseValue: 0
   knockbackSpeedY:
     baseValue: 0
+  knockbackResistPercent:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &711273132
 MonoBehaviour:
@@ -5753,6 +5770,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -6633,6 +6653,8 @@ MonoBehaviour:
     baseValue: 0
   knockbackSpeedY:
     baseValue: 0
+  knockbackResistPercent:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &810842235
 MonoBehaviour:
@@ -6655,6 +6677,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -6789,7 +6814,6 @@ GameObject:
   - component: {fileID: 814565832}
   - component: {fileID: 814565831}
   - component: {fileID: 814565830}
-  - component: {fileID: 814565829}
   m_Layer: 0
   m_Name: hell-void-flames-C_0
   m_TagString: Untagged
@@ -6797,21 +6821,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &814565829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 814565828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1cbd93744d6c2e4389a7729682fa09f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1461614135}
-  offset: {x: 0, y: 0, z: 0}
-  followSpeed: 1
 --- !u!95 &814565830
 Animator:
   serializedVersion: 7
@@ -6897,12 +6906,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814565828}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.31, y: -0.71, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.767147, y: 4.335978, z: 0.07951713}
   m_LocalScale: {x: 13.849431, y: 13.849431, z: 13.849431}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 849821003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &841937955
 GameObject:
@@ -7038,6 +7047,41 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.7547932, y: 0.80405426}
   m_EdgeRadius: 0
+--- !u!1 &849821002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 849821003}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &849821003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849821002}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.0771475, y: -5.045978, z: -0.07951713}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1002558032}
+  - {fileID: 1409834958}
+  - {fileID: 814565832}
+  - {fileID: 1681548352}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &852406751
 GameObject:
   m_ObjectHideFlags: 0
@@ -8440,7 +8484,6 @@ GameObject:
   - component: {fileID: 1002558032}
   - component: {fileID: 1002558031}
   - component: {fileID: 1002558030}
-  - component: {fileID: 1002558033}
   m_Layer: 0
   m_Name: hell-void-flames-A_0
   m_TagString: Untagged
@@ -8533,28 +8576,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002558029}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.13, y: 1.68, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.947147, y: 6.725978, z: 0.07951713}
   m_LocalScale: {x: 13.947583, y: 16.43716, z: 13.947583}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 849821003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1002558033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002558029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1cbd93744d6c2e4389a7729682fa09f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1461614135}
-  offset: {x: 0, y: 0, z: 0}
-  followSpeed: 1
 --- !u!1 &1005735220
 GameObject:
   m_ObjectHideFlags: 0
@@ -8776,6 +8804,8 @@ MonoBehaviour:
     baseValue: 0
   knockbackSpeedY:
     baseValue: 0
+  knockbackResistPercent:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &1034725850
 MonoBehaviour:
@@ -8798,6 +8828,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -9341,6 +9374,8 @@ MonoBehaviour:
   knockbackSpeedX:
     baseValue: 0
   knockbackSpeedY:
+    baseValue: 0
+  knockbackResistPercent:
     baseValue: 0
   currentHealth: 0
 --- !u!114 &1061564319
@@ -10012,6 +10047,8 @@ MonoBehaviour:
     baseValue: 0
   knockbackSpeedY:
     baseValue: 0
+  knockbackResistPercent:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &1272370928
 MonoBehaviour:
@@ -10034,6 +10071,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -10182,6 +10222,8 @@ MonoBehaviour:
     baseValue: 20
   knockbackSpeedY:
     baseValue: 5
+  knockbackResistPercent:
+    baseValue: 0
   currentHealth: 0
 --- !u!114 &1275409841
 MonoBehaviour:
@@ -10204,6 +10246,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -10211,7 +10256,7 @@ MonoBehaviour:
   idleTime: 1
   battleTime: 4
   attackDistance: 1.3
-  attackCooldown: 0.5
+  attackCooldown: 1
   lastTimeAttacked: 0
 --- !u!70 &1275409842
 CapsuleCollider2D:
@@ -11140,7 +11185,6 @@ GameObject:
   - component: {fileID: 1409834958}
   - component: {fileID: 1409834957}
   - component: {fileID: 1409834956}
-  - component: {fileID: 1409834955}
   m_Layer: 0
   m_Name: hell-void-flames-B_0
   m_TagString: Untagged
@@ -11148,21 +11192,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1409834955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1409834954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1cbd93744d6c2e4389a7729682fa09f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1461614135}
-  offset: {x: 0, y: 0, z: 0}
-  followSpeed: 1
 --- !u!95 &1409834956
 Animator:
   serializedVersion: 7
@@ -11248,12 +11277,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409834954}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1192, y: -0.56, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.957947, y: 4.485978, z: 0.07951713}
   m_LocalScale: {x: 13.885388, y: 13.885388, z: 13.885388}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 849821003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1422212904
 GameObject:
@@ -11565,6 +11594,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   moveSpeed: 12
   jumpForce: 17
   dashCooldown: 1
@@ -11683,10 +11715,12 @@ MonoBehaviour:
   damage:
     baseValue: 10
   maxHealth:
-    baseValue: 3
+    baseValue: 100
   knockbackSpeedX:
-    baseValue: 0
+    baseValue: 150
   knockbackSpeedY:
+    baseValue: 10
+  knockbackResistPercent:
     baseValue: 0
   currentHealth: 0
 --- !u!1 &1468395500
@@ -12317,6 +12351,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  knockbackTimer: 0
+  knockbackDuration: 0.3
+  isKnockbackActive: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -12409,6 +12446,8 @@ MonoBehaviour:
   knockbackSpeedX:
     baseValue: 0
   knockbackSpeedY:
+    baseValue: 0
+  knockbackResistPercent:
     baseValue: 0
   currentHealth: 0
 --- !u!114 &1601235005
@@ -13334,7 +13373,6 @@ GameObject:
   - component: {fileID: 1681548352}
   - component: {fileID: 1681548351}
   - component: {fileID: 1681548350}
-  - component: {fileID: 1681548349}
   m_Layer: 0
   m_Name: hell-void-flames-D_0
   m_TagString: Untagged
@@ -13342,21 +13380,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1681548349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681548348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1cbd93744d6c2e4389a7729682fa09f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1461614135}
-  offset: {x: 0, y: 0, z: 0}
-  followSpeed: 1
 --- !u!95 &1681548350
 Animator:
   serializedVersion: 7
@@ -13442,12 +13465,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681548348}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.28, y: -1.9, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.797148, y: 3.145978, z: 0.07951713}
   m_LocalScale: {x: 13.857808, y: 13.317354, z: 13.857808}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 849821003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1684546701
 GameObject:
@@ -16936,8 +16959,5 @@ SceneRoots:
   - {fileID: 198073331}
   - {fileID: 1684546703}
   - {fileID: 156207453}
-  - {fileID: 1002558032}
-  - {fileID: 1409834958}
-  - {fileID: 814565832}
-  - {fileID: 1681548352}
   - {fileID: 1702152364}
+  - {fileID: 849821003}

@@ -24,6 +24,10 @@ public class Entity : MonoBehaviour
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGround;
 
+    public float knockbackTimer;
+    public float knockbackDuration = 0.3f;
+    public bool isKnockbackActive = false;
+
     public int facingDir { get; private set; } = 1;
     protected bool facingRight = true;
 
@@ -97,5 +101,32 @@ public class Entity : MonoBehaviour
     public virtual void Die()
     {
 
+    }
+
+    /// <summary>
+    /// DoKnockback pushes the target in the direction the attacking entity is facing
+    /// </summary>
+    /// <param name="targetrb">The target taking knocback</param>
+    /// <param name="knockbackSpeed">How far the target will be knocked back</param>
+    public void DoKnockback(Entity targetEntity, float knockbackSpeedX, float knockbackSpeedY) {
+        targetEntity.TakeKnockback(knockbackSpeedX * facingDir, knockbackSpeedY);
+    }
+
+    /// <summary>
+    /// TakeKnockback causes the entity to be pushed into a specified direction
+    /// </summary>
+    /// <param name="knockbackSpeed"></param>
+    public virtual void TakeKnockback(float knockbackSpeedX, float knockbackSpeedY) {
+        //rb.linearVelocity = new Vector2(knockbackSpeedX, knockbackSpeedY);
+        if(stats.getCurrentHealth() > 0) {
+            ActivateKnockback();
+            rb.AddForce(new Vector2(knockbackSpeedX * ((100 - stats.knockbackResistPercent.GetValue())/100), knockbackSpeedY * ((100 - stats.knockbackResistPercent.GetValue())/100)), ForceMode2D.Impulse);
+        }
+    }
+
+    public void ActivateKnockback()
+    {
+        isKnockbackActive = true;
+        knockbackTimer = knockbackDuration;
     }
 }
