@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d17da128-97c7-44ec-9d14-f9b60e9a701f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Background/heaven_background_256x144_DIM-1.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Background/heaven_background_256x144_DIM-1.png.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Background/pillar-1-1.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Background/pillar-1-1.png.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Background/pillar-2-1.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Background/pillar-2-1.png.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/angel-boss-blink.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/angel-boss-blink.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/angel-boss-blink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/angel-boss-blink.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/angel-boss-blink_0 1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/angel-boss-blink_0 1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/angel-boss-blink_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/angel-boss-blink_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/guardian angel smaller idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/guardian angel smaller idle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/guardian angel smaller idle_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/guardian angel smaller idle_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/guardian-angel-idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DIM/Sprites/Enemies/guardian-angel-idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hell-Void.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hell-Void.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DIM/Animations/Ear/earAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DIM/Animations/Ear/earAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DIM/Scripts/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DIM/Scripts/Entity/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DIM/Scripts/Environment Scripts/BackgroundFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DIM/Scripts/Environment Scripts/BackgroundFollow.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2wTgDJtHR1eLc7KlKVwsPVrymMZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging PauseScreen",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d17da128-97c7-44ec-9d14-f9b60e9a701f" name="Changes" comment="" />
+      <created>1746070861128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746070861128</updated>
+      <workItem from="1746070864897" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
