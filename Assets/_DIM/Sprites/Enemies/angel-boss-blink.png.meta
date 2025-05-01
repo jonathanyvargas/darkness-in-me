@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: d14f23cf605d4d94fa6762f1bbdb9612
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3860998420079517244
+    second: angel-boss-blink_0
+  - first:
+      213: 8160753502450137955
+    second: angel-boss-blink_1
+  - first:
+      213: 1105834809513077895
+    second: angel-boss-blink_2
+  - first:
+      213: 4303994125219258206
+    second: angel-boss-blink_3
+  - first:
+      213: -491428722395019400
+    second: angel-boss-blink_4
+  - first:
+      213: 6088446735329444743
+    second: angel-boss-blink_5
+  - first:
+      213: 1432397609026835745
+    second: angel-boss-blink_6
+  - first:
+      213: 1704480795264770806
+    second: angel-boss-blink_7
+  - first:
+      213: 7776670511209969726
+    second: angel-boss-blink_8
+  - first:
+      213: 6474045041633963720
+    second: angel-boss-blink_9
+  - first:
+      213: -2872657684959500919
+    second: angel-boss-blink_10
+  - first:
+      213: 2486046273356261330
+    second: angel-boss-blink_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: angel-boss-blink_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2059
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e1f2b4b95059530800000000000000
+      internalID: 3860998420079517244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2059
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bb01da212d04170800000000000000
+      internalID: 8160753502450137955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_2
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 2059
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ce94976e6b85f00800000000000000
+      internalID: 1105834809513077895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1419
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fdf057adbdabb30800000000000000
+      internalID: 4303994125219258206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_4
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1419
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87788314e281e29f0800000000000000
+      internalID: -491428722395019400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_5
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1414
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783c23d3c028e7450800000000000000
+      internalID: 6088446735329444743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 774
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125d9274906e0e310800000000000000
+      internalID: 1432397609026835745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_7
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 774
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f26b38a04887a710800000000000000
+      internalID: 1704480795264770806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_8
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 774
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38fceb90a84ceb60800000000000000
+      internalID: 7776670511209969726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 134
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cea8761aad68d950800000000000000
+      internalID: 6474045041633963720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_10
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 134
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98561b63e054228d0800000000000000
+      internalID: -2872657684959500919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel-boss-blink_11
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 134
+        width: 472
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7659af9e5308220800000000000000
+      internalID: 2486046273356261330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      angel-boss-blink_0: 3860998420079517244
+      angel-boss-blink_1: 8160753502450137955
+      angel-boss-blink_10: -2872657684959500919
+      angel-boss-blink_11: 2486046273356261330
+      angel-boss-blink_2: 1105834809513077895
+      angel-boss-blink_3: 4303994125219258206
+      angel-boss-blink_4: -491428722395019400
+      angel-boss-blink_5: 6088446735329444743
+      angel-boss-blink_6: 1432397609026835745
+      angel-boss-blink_7: 1704480795264770806
+      angel-boss-blink_8: 7776670511209969726
+      angel-boss-blink_9: 6474045041633963720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

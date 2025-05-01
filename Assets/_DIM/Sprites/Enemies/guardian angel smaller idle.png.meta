@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: eb92ff99a0509e5459972e3e3118ba06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8192119588712765494
+    second: guardian angel smaller idle_0
+  - first:
+      213: -5224123625987352084
+    second: guardian angel smaller idle_1
+  - first:
+      213: -992270027756268104
+    second: guardian angel smaller idle_2
+  - first:
+      213: 4825182377304518004
+    second: guardian angel smaller idle_3
+  - first:
+      213: 4992802154006859457
+    second: guardian angel smaller idle_4
+  - first:
+      213: -2532661499345133449
+    second: guardian angel smaller idle_5
+  - first:
+      213: -1446087609040231523
+    second: guardian angel smaller idle_6
+  - first:
+      213: -1579106395551343429
+    second: guardian angel smaller idle_7
+  - first:
+      213: 8533501842360400820
+    second: guardian angel smaller idle_8
+  - first:
+      213: -1960567846462441566
+    second: guardian angel smaller idle_9
+  - first:
+      213: -33287644747838992
+    second: guardian angel smaller idle_10
+  - first:
+      213: -8296938702567552464
+    second: guardian angel smaller idle_11
+  - first:
+      213: -1236850914054433878
+    second: guardian angel smaller idle_12
+  - first:
+      213: 3432941071290038329
+    second: guardian angel smaller idle_13
+  - first:
+      213: 6682993491458593661
+    second: guardian angel smaller idle_14
+  - first:
+      213: 5615291668440016780
+    second: guardian angel smaller idle_15
+  - first:
+      213: -7092307404946938403
+    second: guardian angel smaller idle_16
+  - first:
+      213: 6901996033997443886
+    second: guardian angel smaller idle_17
+  - first:
+      213: -5184983961434587722
+    second: guardian angel smaller idle_18
+  - first:
+      213: 4911040781159885397
+    second: guardian angel smaller idle_19
+  - first:
+      213: -9123157815957258838
+    second: guardian angel smaller idle_20
+  - first:
+      213: 1757135612026494836
+    second: guardian angel smaller idle_21
+  - first:
+      213: -8998091680502316021
+    second: guardian angel smaller idle_22
+  - first:
+      213: -8635616286156494624
+    second: guardian angel smaller idle_23
+  - first:
+      213: 2389593856950804791
+    second: guardian angel smaller idle_24
+  - first:
+      213: 3203742497651430948
+    second: guardian angel smaller idle_25
+  - first:
+      213: 6051158214308697066
+    second: guardian angel smaller idle_26
+  - first:
+      213: 458698119615958713
+    second: guardian angel smaller idle_27
+  - first:
+      213: -1197752821170601960
+    second: guardian angel smaller idle_28
+  - first:
+      213: -1570867167473131809
+    second: guardian angel smaller idle_29
+  - first:
+      213: -687528063977310169
+    second: guardian angel smaller idle_30
+  - first:
+      213: -8245347291771095525
+    second: guardian angel smaller idle_31
+  - first:
+      213: 8058129083722868769
+    second: guardian angel smaller idle_32
+  - first:
+      213: -2724167282954957174
+    second: guardian angel smaller idle_33
+  - first:
+      213: -1971335254972876104
+    second: guardian angel smaller idle_34
+  - first:
+      213: -4468555530126539626
+    second: guardian angel smaller idle_35
+  - first:
+      213: -8756451762899040472
+    second: guardian angel smaller idle_36
+  - first:
+      213: -8646185127043945265
+    second: guardian angel smaller idle_37
+  - first:
+      213: 2132289427075754751
+    second: guardian angel smaller idle_38
+  - first:
+      213: -7202100444249560578
+    second: guardian angel smaller idle_39
+  - first:
+      213: 1968862094998698623
+    second: guardian angel smaller idle_40
+  - first:
+      213: -945720686507894792
+    second: guardian angel smaller idle_41
+  - first:
+      213: 5071137521005591722
+    second: guardian angel smaller idle_42
+  - first:
+      213: -5653085395525438420
+    second: guardian angel smaller idle_43
+  - first:
+      213: 6520832250578205704
+    second: guardian angel smaller idle_44
+  - first:
+      213: -5665732396879072109
+    second: guardian angel smaller idle_45
+  - first:
+      213: -8353512739954619162
+    second: guardian angel smaller idle_46
+  - first:
+      213: 8105363656590958010
+    second: guardian angel smaller idle_47
+  - first:
+      213: -7664139045634915298
+    second: guardian angel smaller idle_48
+  - first:
+      213: -5364578240611124066
+    second: guardian angel smaller idle_49
+  - first:
+      213: 5138586579172388231
+    second: guardian angel smaller idle_50
+  - first:
+      213: -1836742128359212115
+    second: guardian angel smaller idle_51
+  - first:
+      213: 2436237342801703103
+    second: guardian angel smaller idle_52
+  - first:
+      213: -638392653018133060
+    second: guardian angel smaller idle_53
+  - first:
+      213: 8752748874260424604
+    second: guardian angel smaller idle_54
+  - first:
+      213: -1623794155318372373
+    second: guardian angel smaller idle_55
+  - first:
+      213: -7060806766534281605
+    second: guardian angel smaller idle_56
+  - first:
+      213: 8806720676664532451
+    second: guardian angel smaller idle_57
+  - first:
+      213: -831931043372689784
+    second: guardian angel smaller idle_58
+  - first:
+      213: 6105920901649017995
+    second: guardian angel smaller idle_59
+  - first:
+      213: -6645475989553358029
+    second: guardian angel smaller idle_60
+  - first:
+      213: -6019676717940677810
+    second: guardian angel smaller idle_61
+  - first:
+      213: -1056161868703529320
+    second: guardian angel smaller idle_62
+  - first:
+      213: -764264858102656789
+    second: guardian angel smaller idle_63
+  - first:
+      213: -3472312823782858996
+    second: guardian angel smaller idle_64
+  - first:
+      213: -6555230250320781997
+    second: guardian angel smaller idle_65
+  - first:
+      213: 928323776594057905
+    second: guardian angel smaller idle_66
+  - first:
+      213: -9027434605149557306
+    second: guardian angel smaller idle_67
+  - first:
+      213: 3766282372486129606
+    second: guardian angel smaller idle_68
+  - first:
+      213: -777421218317503916
+    second: guardian angel smaller idle_69
+  - first:
+      213: 3434609168383666568
+    second: guardian angel smaller idle_70
+  - first:
+      213: 4556183656011610716
+    second: guardian angel smaller idle_71
+  - first:
+      213: -5163171848443729541
+    second: guardian angel smaller idle_72
+  - first:
+      213: 8260490858925332031
+    second: guardian angel smaller idle_73
+  - first:
+      213: 6129348525274572572
+    second: guardian angel smaller idle_74
+  - first:
+      213: 74556413572543837
+    second: guardian angel smaller idle_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: guardian angel smaller idle_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3264
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6385ebabc5140b170800000000000000
+      internalID: 8192119588712765494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_1
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 3259
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce95c42ad3f2087b0800000000000000
+      internalID: -5224123625987352084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_2
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 3254
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b51252caafba32f0800000000000000
+      internalID: -992270027756268104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_3
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 3249
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47de5b7aecd76f240800000000000000
+      internalID: 4825182377304518004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_4
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 3244
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce42672b1ff94540800000000000000
+      internalID: 4992802154006859457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_5
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 3239
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770a933f8cd2adcd0800000000000000
+      internalID: -2532661499345133449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3069
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9320153bf67eebe0800000000000000
+      internalID: -1446087609040231523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_7
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 3064
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc5d968913e51ae0800000000000000
+      internalID: -1579106395551343429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_8
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3059
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb780496b61d6670800000000000000
+      internalID: 8533501842360400820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_9
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 3054
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7bd816ee9aac4e0800000000000000
+      internalID: -1960567846462441566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_10
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 3049
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9456f301db98ff0800000000000000
+      internalID: -33287644747838992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_11
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 3044
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a4546853a5bdc80800000000000000
+      internalID: -8296938702567552464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_12
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2759
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa31ba395a2d5dee0800000000000000
+      internalID: -1236850914054433878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_13
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2754
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938771147b144af20800000000000000
+      internalID: 3432941071290038329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_14
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2754
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7313a62c23cebc50800000000000000
+      internalID: 6682993491458593661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_15
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2754
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87e39775068ded40800000000000000
+      internalID: 5615291668440016780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_16
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 2759
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5e34aedff039d90800000000000000
+      internalID: -7092307404946938403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_17
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 2759
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23929713d0d8cf50800000000000000
+      internalID: 6901996033997443886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2564
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdf79cee8c3b08b0800000000000000
+      internalID: -5184983961434587722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_19
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2559
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55aed761295872440800000000000000
+      internalID: 4911040781159885397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_20
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 2559
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadf90e8d48046180800000000000000
+      internalID: -9123157815957258838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_21
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2559
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f17098789926810800000000000000
+      internalID: 1757135612026494836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_22
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 2564
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04034f5a4b502380800000000000000
+      internalID: -8998091680502316021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_23
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 2564
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8601fbdb0282880800000000000000
+      internalID: -8635616286156494624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_24
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2284
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7312209c3fa892120800000000000000
+      internalID: 2389593856950804791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_25
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2284
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4261654d3daf57c20800000000000000
+      internalID: 3203742497651430948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_26
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2289
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae39e83e5580af350800000000000000
+      internalID: 6051158214308697066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_27
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2294
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be49de628f9d5600800000000000000
+      internalID: 458698119615958713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_28
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 2299
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8108765b72ab06fe0800000000000000
+      internalID: -1197752821170601960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_29
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 2304
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde907d42a8233ae0800000000000000
+      internalID: -1570867167473131809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2089
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72835855ed86576f0800000000000000
+      internalID: -687528063977310169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_31
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2089
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b163148e254a29d80800000000000000
+      internalID: -8245347291771095525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_32
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 2094
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128ab8535b934df60800000000000000
+      internalID: 8058129083722868769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_33
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2099
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e8ab61a40d13ad0800000000000000
+      internalID: -2724167282954957174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_34
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 2104
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba332ab70964a4e0800000000000000
+      internalID: -1971335254972876104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_35
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 2109
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69443b7bb608cf1c0800000000000000
+      internalID: -4468555530126539626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_36
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1824
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8274f8be385da7680800000000000000
+      internalID: -8756451762899040472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_37
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1824
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcca748bf64920880800000000000000
+      internalID: -8646185127043945265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_38
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1819
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaeb23cfe9679d10800000000000000
+      internalID: 2132289427075754751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_39
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1814
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef962d7edcffc0c90800000000000000
+      internalID: -7202100444249560578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_40
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 1809
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7af028d4adc25b10800000000000000
+      internalID: 1968862094998698623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_41
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 1804
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f755f7db0020e2f0800000000000000
+      internalID: -945720686507894792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_42
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1629
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac71b215bc406640800000000000000
+      internalID: 5071137521005591722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_43
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1629
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24f1cab8c43c81b0800000000000000
+      internalID: -5653085395525438420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_44
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1624
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cff9f0266ae7a50800000000000000
+      internalID: 6520832250578205704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_45
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1619
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394b99347664f51b0800000000000000
+      internalID: -5665732396879072109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_46
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1614
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec0e4cfb6c521c80800000000000000
+      internalID: -8353512739954619162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_47
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1609
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd17763d490c7070800000000000000
+      internalID: 8105363656590958010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_48
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1319
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14cab3f42283a590800000000000000
+      internalID: -7664139045634915298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_49
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1319
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c759e43803d85b0800000000000000
+      internalID: -5364578240611124066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_50
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1314
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78de823b44def4740800000000000000
+      internalID: 5138586579172388231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_51
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1314
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab772704c49286e0800000000000000
+      internalID: -1836742128359212115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_52
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 1314
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0bc3e94f04fc120800000000000000
+      internalID: 2436237342801703103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_53
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 1319
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd82a1b349f327f0800000000000000
+      internalID: -638392653018133060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_54
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1124
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c972e722ab2087970800000000000000
+      internalID: 8752748874260424604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_55
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1124
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be794e7a1df1779e0800000000000000
+      internalID: -1623794155318372373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_56
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1119
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76bc05d7a9f20e90800000000000000
+      internalID: -7060806766534281605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_57
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1119
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed5da0abc1c73a70800000000000000
+      internalID: 8806720676664532451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_58
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1119
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8869622bf136474f0800000000000000
+      internalID: -831931043372689784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_59
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1124
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c2c61a5b69cb450800000000000000
+      internalID: 6105920901649017995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_60
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 839
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bd847fbc686c3a0800000000000000
+      internalID: -6645475989553358029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_61
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 844
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43e47c2befc57ca0800000000000000
+      internalID: -6019676717940677810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_62
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 844
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8960d9e4062c751f0800000000000000
+      internalID: -1056161868703529320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_63
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 849
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be01a7a2929c465f0800000000000000
+      internalID: -764264858102656789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_64
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 854
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f936542eddfcfc0800000000000000
+      internalID: -3472312823782858996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_65
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 859
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d1cb481d42705a0800000000000000
+      internalID: -6555230250320781997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_66
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 644
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba107c6e8112ec00800000000000000
+      internalID: 928323776594057905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_67
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 649
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdedf65e0c18b280800000000000000
+      internalID: -9027434605149557306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_68
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 649
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7e9d7fcd5844430800000000000000
+      internalID: 3766282372486129606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_69
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 654
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4527559558b0635f0800000000000000
+      internalID: -777421218317503916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_70
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 659
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889eecf57de2aaf20800000000000000
+      internalID: 3434609168383666568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_71
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 664
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a330c35e0da3f30800000000000000
+      internalID: 4556183656011610716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_72
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 384
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79e63b3f8ab858b0800000000000000
+      internalID: -5163171848443729541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_73
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 384
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f361b949ba823a270800000000000000
+      internalID: 8260490858925332031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_74
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 189
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c172e815202df0550800000000000000
+      internalID: 6129348525274572572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardian angel smaller idle_75
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 189
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55f7b2c9a0e80100800000000000000
+      internalID: 74556413572543837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      guardian angel smaller idle_0: 8192119588712765494
+      guardian angel smaller idle_1: -5224123625987352084
+      guardian angel smaller idle_10: -33287644747838992
+      guardian angel smaller idle_11: -8296938702567552464
+      guardian angel smaller idle_12: -1236850914054433878
+      guardian angel smaller idle_13: 3432941071290038329
+      guardian angel smaller idle_14: 6682993491458593661
+      guardian angel smaller idle_15: 5615291668440016780
+      guardian angel smaller idle_16: -7092307404946938403
+      guardian angel smaller idle_17: 6901996033997443886
+      guardian angel smaller idle_18: -5184983961434587722
+      guardian angel smaller idle_19: 4911040781159885397
+      guardian angel smaller idle_2: -992270027756268104
+      guardian angel smaller idle_20: -9123157815957258838
+      guardian angel smaller idle_21: 1757135612026494836
+      guardian angel smaller idle_22: -8998091680502316021
+      guardian angel smaller idle_23: -8635616286156494624
+      guardian angel smaller idle_24: 2389593856950804791
+      guardian angel smaller idle_25: 3203742497651430948
+      guardian angel smaller idle_26: 6051158214308697066
+      guardian angel smaller idle_27: 458698119615958713
+      guardian angel smaller idle_28: -1197752821170601960
+      guardian angel smaller idle_29: -1570867167473131809
+      guardian angel smaller idle_3: 4825182377304518004
+      guardian angel smaller idle_30: -687528063977310169
+      guardian angel smaller idle_31: -8245347291771095525
+      guardian angel smaller idle_32: 8058129083722868769
+      guardian angel smaller idle_33: -2724167282954957174
+      guardian angel smaller idle_34: -1971335254972876104
+      guardian angel smaller idle_35: -4468555530126539626
+      guardian angel smaller idle_36: -8756451762899040472
+      guardian angel smaller idle_37: -8646185127043945265
+      guardian angel smaller idle_38: 2132289427075754751
+      guardian angel smaller idle_39: -7202100444249560578
+      guardian angel smaller idle_4: 4992802154006859457
+      guardian angel smaller idle_40: 1968862094998698623
+      guardian angel smaller idle_41: -945720686507894792
+      guardian angel smaller idle_42: 5071137521005591722
+      guardian angel smaller idle_43: -5653085395525438420
+      guardian angel smaller idle_44: 6520832250578205704
+      guardian angel smaller idle_45: -5665732396879072109
+      guardian angel smaller idle_46: -8353512739954619162
+      guardian angel smaller idle_47: 8105363656590958010
+      guardian angel smaller idle_48: -7664139045634915298
+      guardian angel smaller idle_49: -5364578240611124066
+      guardian angel smaller idle_5: -2532661499345133449
+      guardian angel smaller idle_50: 5138586579172388231
+      guardian angel smaller idle_51: -1836742128359212115
+      guardian angel smaller idle_52: 2436237342801703103
+      guardian angel smaller idle_53: -638392653018133060
+      guardian angel smaller idle_54: 8752748874260424604
+      guardian angel smaller idle_55: -1623794155318372373
+      guardian angel smaller idle_56: -7060806766534281605
+      guardian angel smaller idle_57: 8806720676664532451
+      guardian angel smaller idle_58: -831931043372689784
+      guardian angel smaller idle_59: 6105920901649017995
+      guardian angel smaller idle_6: -1446087609040231523
+      guardian angel smaller idle_60: -6645475989553358029
+      guardian angel smaller idle_61: -6019676717940677810
+      guardian angel smaller idle_62: -1056161868703529320
+      guardian angel smaller idle_63: -764264858102656789
+      guardian angel smaller idle_64: -3472312823782858996
+      guardian angel smaller idle_65: -6555230250320781997
+      guardian angel smaller idle_66: 928323776594057905
+      guardian angel smaller idle_67: -9027434605149557306
+      guardian angel smaller idle_68: 3766282372486129606
+      guardian angel smaller idle_69: -777421218317503916
+      guardian angel smaller idle_7: -1579106395551343429
+      guardian angel smaller idle_70: 3434609168383666568
+      guardian angel smaller idle_71: 4556183656011610716
+      guardian angel smaller idle_72: -5163171848443729541
+      guardian angel smaller idle_73: 8260490858925332031
+      guardian angel smaller idle_74: 6129348525274572572
+      guardian angel smaller idle_75: 74556413572543837
+      guardian angel smaller idle_8: 8533501842360400820
+      guardian angel smaller idle_9: -1960567846462441566
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
