@@ -56,4 +56,10 @@ public class PlayerState
         triggerCalled = true;
     }
 
+    public void KockbackStateCountdown() {
+        player.knockbackTimer -= Time.deltaTime;
+        if (player.knockbackTimer <= 0)
+            player.isKnockbackActive = false;
+    }
+
 }

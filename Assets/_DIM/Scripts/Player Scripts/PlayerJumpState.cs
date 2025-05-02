@@ -30,6 +30,13 @@ public class PlayerJumpState : PlayerState
         if (rb.linearVelocity.y < 0)
             stateMachine.ChangeState(player.airState);
 
-        player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocity.y);
+        if (player.isKnockbackActive)
+        {
+            this.KockbackStateCountdown();
+        }
+        else
+        {
+            player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocity.y);
+        }
     }
 }

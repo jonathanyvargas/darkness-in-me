@@ -21,7 +21,14 @@ public class PlayerMoveState : PlayerGroundedState
     {
         base.Update();
 
-        player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocity.y);
+        if (player.isKnockbackActive)
+        {
+            this.KockbackStateCountdown();
+        }
+        else
+        {
+            player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocity.y);
+        }
 
         if (xInput == 0)
             stateMachine.ChangeState(player.idleState);

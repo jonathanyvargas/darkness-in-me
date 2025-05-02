@@ -23,9 +23,7 @@ public class PlayerAirState : PlayerState
 
         if (player.isKnockbackActive)
         {
-            player.knockbackTimer -= Time.deltaTime;
-            if (player.knockbackTimer <= 0)
-                player.isKnockbackActive = false;
+            this.KockbackStateCountdown();
         }
         else
         {

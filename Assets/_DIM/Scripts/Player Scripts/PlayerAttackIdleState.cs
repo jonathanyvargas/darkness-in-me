@@ -20,7 +20,14 @@ public class PlayerAttackIdleState : PlayerState
     {
         base.Update();
 
-        player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocity.y);
+        if (player.isKnockbackActive)
+        {
+            this.KockbackStateCountdown();
+        }
+        else
+        {
+            player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocity.y);
+        }
 
         if (triggerCalled)
         {
