@@ -28,7 +28,8 @@ public class ParallaxParent : MonoBehaviour
 
         foreach (var pLayer in layers)
         {
-            Vector3 layerMovement = new Vector3(delta.x * pLayer.parallaxFactor, delta.y * pLayer.parallaxFactor, 0);
+            // Apply only horizontal movement
+            Vector3 layerMovement = new Vector3(delta.x * pLayer.parallaxFactor, 0f, 0f);
             pLayer.layer.position += layerMovement;
         }
 
