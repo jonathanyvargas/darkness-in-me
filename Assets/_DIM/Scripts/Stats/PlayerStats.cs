@@ -3,17 +3,31 @@ using UnityEngine;
 public class PlayerStats : CharacterStats
 {
     private Player player;
+
     protected override void Start()
     {
         base.Start();
-
         player = GetComponent<Player>();
+
+        // Subscribe to the OnHealthChanged event from CharacterStats
+        OnHealthChanged += HandleHealthChanged;
     }
 
-    public override void TakeDamage(int _damage)
+    private void OnDestroy()
     {
-        base.TakeDamage(_damage);
+        // Unsubscribe from event when no longer needed
+        OnHealthChanged -= HandleHealthChanged;
+    }
 
+    private void HandleHealthChanged(int currentHealth)
+    {
+        // Handle UI updates or other changes when health changes
+        Debug.Log($"Health changed: {currentHealth}");
+    }
+
+    public override void TakeDamage(int damageAmount)
+    {
+        base.TakeDamage(damageAmount);
         player.DamageEffect();
     }
 
