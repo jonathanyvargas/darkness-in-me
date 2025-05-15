@@ -1931,7 +1931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    baseValue: 100
+    baseValue: 1
   maxHealth:
     baseValue: 20
   knockbackSpeedX:
@@ -5971,7 +5971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    baseValue: 50
+    baseValue: 1
   maxHealth:
     baseValue: 70
   knockbackSpeedX:
@@ -6686,7 +6686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    baseValue: 100
+    baseValue: 1
   maxHealth:
     baseValue: 20
   knockbackSpeedX:
@@ -12903,7 +12903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    baseValue: 50
+    baseValue: 1
   maxHealth:
     baseValue: 70
   knockbackSpeedX:
@@ -16265,7 +16265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    baseValue: 100
+    baseValue: 1
   maxHealth:
     baseValue: 20
   knockbackSpeedX:
