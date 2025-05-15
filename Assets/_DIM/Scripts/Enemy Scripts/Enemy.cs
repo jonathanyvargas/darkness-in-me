@@ -73,11 +73,12 @@ public class Enemy : Entity
     } */
 
     private void OnCollisionEnter2D(Collision2D collision)
-{
+    {
     if (collision.collider.CompareTag("Player"))
     {
         collision.collider.GetComponent<PlayerStats>().TakeDamage(1);
         collision.collider.GetComponent<Player>().TakeKnockback(5 * facingDir, 5);
     }
-}
+
+    }
 }
