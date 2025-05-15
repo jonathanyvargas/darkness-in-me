@@ -129,6 +129,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -409,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      angel-boss_wings__legsblink_0: -5207642222563836513
+      angel-boss_wings__legsblink_1: 4606318777815786654
+      angel-boss_wings__legsblink_10: -6922578834128395360
+      angel-boss_wings__legsblink_11: 5774307534890339803
+      angel-boss_wings__legsblink_2: -6336346497472773370
+      angel-boss_wings__legsblink_3: -1724459992825592527
+      angel-boss_wings__legsblink_4: 4478711704693850443
+      angel-boss_wings__legsblink_5: 3884929802368848476
+      angel-boss_wings__legsblink_6: -8861214832550280048
+      angel-boss_wings__legsblink_7: 6148936680400996609
+      angel-boss_wings__legsblink_8: 1698542274616499712
+      angel-boss_wings__legsblink_9: 6427798968155113132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
