@@ -28,6 +28,9 @@ public class Boss : Enemy
 
     [SerializeField] private float fadeDuration = 2f; // Duration of the fade
 
+    [Header("Credits Settings")]
+    [SerializeField] private GameObject creditsCanvas; // Assign in Inspector
+
     protected override void Awake()
     {
         base.Awake();
@@ -55,7 +58,7 @@ public class Boss : Enemy
         base.Die();
 
         if (spriteRenderer != null)
-            StartCoroutine(FadeOutAndDestroy());
+            StartCoroutine(FadeOutAndShowCredits());
         else
         {
             Debug.LogError("SpriteRenderer not found on bossAnimator GameObject, destroying immediately.");
@@ -63,7 +66,7 @@ public class Boss : Enemy
         }
     }
 
-    private IEnumerator FadeOutAndDestroy()
+    private IEnumerator FadeOutAndShowCredits()
     {
         float elapsed = 0f;
         Color originalColor = spriteRenderer.color;
@@ -77,6 +80,10 @@ public class Boss : Enemy
         }
 
         spriteRenderer.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0f);
+
+        if (creditsCanvas != null)
+            creditsCanvas.SetActive(true);
+
         Destroy(gameObject);
     }
 }
